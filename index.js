@@ -1,7 +1,7 @@
 const AWS = require('aws-sdk');
 const express = require('express')
 const app = express()
-const port = 8080;
+const port = 8080
 const randtoken = require('rand-token');
 
 AWS.config.update({ region: 'us-east-1' });
